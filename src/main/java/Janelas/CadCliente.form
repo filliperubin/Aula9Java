@@ -79,8 +79,8 @@
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jTTel" alignment="0" max="32767" attributes="0"/>
-                              <Component id="jTCPF" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jTTelefone" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jTCpf" alignment="0" max="32767" attributes="0"/>
                               <Component id="jTEndereco" max="32767" attributes="0"/>
                               <Component id="jTNome" alignment="0" max="32767" attributes="0"/>
                           </Group>
@@ -112,12 +112,12 @@
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jTCPF" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTCpf" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jTTel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTTelefone" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
@@ -176,14 +176,14 @@
             </Property>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="jTCPF">
+        <Component class="javax.swing.JTextField" name="jTCpf">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Calibri Light" size="18" style="1"/>
             </Property>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="jTTel">
+        <Component class="javax.swing.JTextField" name="jTTelefone">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Calibri Light" size="18" style="1"/>

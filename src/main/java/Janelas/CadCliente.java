@@ -35,8 +35,8 @@ public class CadCliente extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         jTNome = new javax.swing.JTextField();
         jTEndereco = new javax.swing.JTextField();
-        jTCPF = new javax.swing.JTextField();
-        jTTel = new javax.swing.JTextField();
+        jTCpf = new javax.swing.JTextField();
+        jTTelefone = new javax.swing.JTextField();
         jBCadastrar = new javax.swing.JButton();
         jBLimpar = new javax.swing.JButton();
 
@@ -64,9 +64,9 @@ public class CadCliente extends javax.swing.JFrame {
 
         jTEndereco.setFont(new java.awt.Font("Calibri Light", 1, 18)); // NOI18N
 
-        jTCPF.setFont(new java.awt.Font("Calibri Light", 1, 18)); // NOI18N
+        jTCpf.setFont(new java.awt.Font("Calibri Light", 1, 18)); // NOI18N
 
-        jTTel.setFont(new java.awt.Font("Calibri Light", 1, 18)); // NOI18N
+        jTTelefone.setFont(new java.awt.Font("Calibri Light", 1, 18)); // NOI18N
 
         jBCadastrar.setText("Cadastrar");
 
@@ -87,8 +87,8 @@ public class CadCliente extends javax.swing.JFrame {
                             .addComponent(jLabel2))
                         .addGap(18, 18, 18)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jTTel)
-                            .addComponent(jTCPF)
+                            .addComponent(jTTelefone)
+                            .addComponent(jTCpf)
                             .addComponent(jTEndereco)
                             .addComponent(jTNome)))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
@@ -112,11 +112,11 @@ public class CadCliente extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4)
-                    .addComponent(jTCPF, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jTCpf, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel5)
-                    .addComponent(jTTel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jTTelefone, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jBCadastrar)
@@ -192,9 +192,9 @@ public class CadCliente extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JTextField jTCPF;
+    private javax.swing.JTextField jTCpf;
     private javax.swing.JTextField jTEndereco;
     private javax.swing.JTextField jTNome;
-    private javax.swing.JTextField jTTel;
+    private javax.swing.JTextField jTTelefone;
     // End of variables declaration//GEN-END:variables
 }
