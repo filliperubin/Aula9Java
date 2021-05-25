@@ -13,13 +13,17 @@ import javax.swing.JOptionPane;
  * @author Fillipe
  */
 public class CadVeiculo extends javax.swing.JFrame {
-
+     Veiculo vei = new Veiculo();
     /**
      * Creates new form CadVeiculo
      */
     public CadVeiculo() {
         initComponents();
     }
+     public CadVeiculo(Veiculo vei) {
+        initComponents();
+        this.vei = vei;
+     }
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -153,8 +157,7 @@ public class CadVeiculo extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jBCadastrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBCadastrarActionPerformed
-        Veiculo vei = new Veiculo();
-        
+              
         vei.setFabricante(jTFab.getText());
         vei.setModelo(jTModelo.getText());
         vei.setPreco(Double.parseDouble(jTPreco.getText()));
