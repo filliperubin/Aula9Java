@@ -10,7 +10,7 @@ package Janelas;
  * @author Fillipe
  */
 public class Principal extends javax.swing.JFrame {
-
+      
     /**
      * Creates new form Principal
      */
