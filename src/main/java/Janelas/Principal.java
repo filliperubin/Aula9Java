@@ -171,7 +171,7 @@ public class Principal extends javax.swing.JFrame {
     }//GEN-LAST:event_jBMostrarVeiculoActionPerformed
 
     private void jBMostrarClienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBMostrarClienteActionPerformed
-        JOptionPane.showMessageDialog(this, cli.getNome());
+        JOptionPane.showMessageDialog(this, cli.getNome() + "\n" + cli.getEndereco() + "\n" + cli.getCpf() + "\n" + cli.getTelefone());
     }//GEN-LAST:event_jBMostrarClienteActionPerformed
 
     /**
