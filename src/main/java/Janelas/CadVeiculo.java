@@ -157,14 +157,15 @@ public class CadVeiculo extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jBCadastrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBCadastrarActionPerformed
-              
+       try {       
         vei.setFabricante(jTFab.getText());
         vei.setModelo(jTModelo.getText());
         vei.setPreco(Double.parseDouble(jTPreco.getText()));
         
         JOptionPane.showMessageDialog(this, "Veículo Cadastrado com Sucesso!");
-               // + "\n" + jTFab.getText() + "\n" + 
-               // jTModelo.getText() + "\n" + "R$: " + jTPreco.getText());
+    } catch (Exception e) {
+        JOptionPane.showMessageDialog(this, "Preenche Corretamente os Campos.");
+    }
     }//GEN-LAST:event_jBCadastrarActionPerformed
 
     private void jBLimparActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBLimparActionPerformed
